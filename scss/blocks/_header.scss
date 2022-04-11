@@ -1,0 +1,14 @@
+.box {
+  background: #000;
+  color: #000;
+  height: 100px;
+  &:hover {
+    background: #fff;
+  }
+  .item {
+    border: 2px solid #000;
+    span {
+      color: var(--orange);
+    }
+  }
+}
